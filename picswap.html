@@ -54,6 +54,8 @@ README:
 	function shuffle()
 	{
 	    var swaps = parseInt(prompt("how many swaps?"));
+	    if (swaps == false)
+		return;
 	    var randIndex1; //used to swap randomly
 	    var randIndex2; 
 	    var randcheck; //used to make sure rand1 & 2 are different
